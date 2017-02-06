@@ -503,3 +503,7 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+div.modal-body ul.content li{
+  font-size: 20px;
+  text-align: left;
+}
