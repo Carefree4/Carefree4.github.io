@@ -507,3 +507,7 @@ div.modal-body ul.content li{
   font-size: 20px;
   text-align: left;
 }
+div.modal-body a.btn-social {
+  font-size: 20px;
+  color: black;
+}
