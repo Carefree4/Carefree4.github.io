@@ -3,6 +3,21 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.progress {
+	overflow: visible;
+	height: 25px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  border-radius: 0px;
+  border: 4px solid #0f2037;
+}
+
+.progress-bar {
+  background-color: #0f2037;
+}
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -43,7 +58,6 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  /*JET: content: "\f0fb";*/
   content: "\f013";
   font-family: FontAwesome;
   display: inline-block;
