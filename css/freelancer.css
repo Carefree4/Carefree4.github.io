@@ -13,6 +13,7 @@ p {
 p.small {
   font-size: 16px;
 }
+
 a,
 a:hover,
 a:focus,
@@ -69,10 +70,24 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
+  background: url('../img/header-background.jpg') center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size: cover;
+  background-size: cover;
   text-align: center;
-  background: #0b362c;
+  /*background: #0b362c;*/
   color: white;
 }
+header small a{
+  font-style: italic;
+  text-align: right;
+  padding: 1%;
+  display: block;
+  color: white;
+}
+
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
