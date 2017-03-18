@@ -99,8 +99,10 @@ header {
     background-size: cover;
   background-size: cover;
   text-align: center;
-  /*background: #0b362c;*/
   color: white;
+
+  /* Add dark layer for readibility */
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
 }
 header small a{
   font-style: italic;
