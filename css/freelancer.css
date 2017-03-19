@@ -10,6 +10,10 @@
   margin: 100px auto;
 }
 
+.photo-attribution {
+  text-align: right;
+}
+
 .slick-slide {
   margin: 0px 20px;
 }
