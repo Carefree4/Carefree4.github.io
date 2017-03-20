@@ -7,7 +7,7 @@
 
 .slider {
   width: 50%;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 
 .photo-attribution {
@@ -28,23 +28,23 @@
 }
 
 .slick-slide {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: .8;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: .8;
 }
 
 .center img {
-    transition-property: all;
-    transition-duration: 300ms;
-    transition-timing-function: ease;
-    transition-delay: initial;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+  transition-delay: initial;
 }
 
 .slick-center {
-    transform: scale(1.08);
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    opacity: 1;
+  transform: scale(1.08);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 .progress {
@@ -221,6 +221,18 @@ header .intro-text .skills {
   color: white;
 }
 
+.navbar-custom .navbar-brand img {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 5%;
+  display: inline-block;
+  max-width: 15%;
+  vertical-align: middle;
+  margin: 0px;
+  margin-bottom: 5px;
+  -webkit-transition: .3s;
+}
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
@@ -275,19 +287,26 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
+    -webkit-transition: padding 0.2s;
+    -moz-transition: padding 0.2s;
+    transition: padding 0.2s;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    padding: 0;
   }
   .navbar-custom.affix {
     padding: 10px 0;
   }
+
+.navbar-custom.navbar-custom.affix .navbar-brand img {
+    max-width: 10%;
+    margin: 0 10px 0 0;
+}
+
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
